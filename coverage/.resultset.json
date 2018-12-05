@@ -5,7 +5,6 @@
         1,
         null,
         1,
-        null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/unit-converter/lib/converter.rb": [
@@ -16,14 +15,46 @@
         1,
         null,
         1,
+        1,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
         null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/unit-converter/lib/menu.rb": [
+        null,
         1,
+        1,
+        2,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1544010377
+    "timestamp": 1544015004
   }
 }
