@@ -1,0 +1,29 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/danielstephenson/Documents/Projects/unit-converter/spec/converter_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/unit-converter/lib/converter.rb": [
+        1,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/unit-converter/spec/menu_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/danielstephenson/Documents/Projects/unit-converter/lib/menu.rb": [
+        1,
+        null
+      ]
+    },
+    "timestamp": 1544010377
+  }
+}
