@@ -19,15 +19,11 @@ class Menu
     ]
   end
 
-  def print_welcome
-    print 'Welcome. Select your conversion:'
+  def print
+    puts 'Welcome. Select your conversion:'
   end
 
   def print_menu
-    @menu.each_with_index  do |v, i|
-      print i + 1
-      print '. '
-      puts v
-    end
+    @menu.each_with_index { |v, i| puts "#{i + 1}. #{v}" }
   end
 end

@@ -3,9 +3,8 @@ require './lib/menu'
 describe Menu do
   describe 'prints out a welcome message' do
     it 'prints a welcome message' do
-      subject.print_welcome
-      expect { subject.print_welcome }.to output(
-        'Welcome. Select your conversion:'
+      expect { subject.print }.to output(
+        "Welcome. Select your conversion:\n"
       ).to_stdout
     end
 
