@@ -1,12 +1,7 @@
 # Class where user selects their unit to convert
 class Menu
-  def print_welcome
-    print 'Welcome. Select your conversion:'
-  end
-
-
-  def print_menu
-    menu = [
+  def initialize
+    @menu = [
       'cm to inches',
       'kg to lbs',
       'Celsius to Fahrenheit',
@@ -22,8 +17,14 @@ class Menu
       'acres to square feet',
       'meters to yards'
     ]
+  end
 
-    menu.each_with_index  do |v, i|
+  def print_welcome
+    print 'Welcome. Select your conversion:'
+  end
+
+  def print_menu
+    @menu.each_with_index  do |v, i|
       print i + 1
       print '. '
       puts v
