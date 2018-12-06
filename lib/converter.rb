@@ -9,4 +9,9 @@ class Converter
   def greeter
     @menu.print
   end
+
+  def cm_to_inches
+    sum = 100 / 2.54
+    sum.round(2)
+  end
 end

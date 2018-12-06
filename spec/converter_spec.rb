@@ -10,9 +10,7 @@ describe Converter do
 
   describe 'Cm to inches' do
     it 'Converts cm to inches' do
-      subject.selection = 1
-      subject.amount = 100
-      expect(subject.cm_to_inches).to eq('39.37')
+      expect(subject.cm_to_inches).to eq(39.37)
     end
   end
 end
