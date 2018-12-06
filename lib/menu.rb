@@ -5,7 +5,7 @@ class Menu
       'cm to inches (cm_to_inches)',
       'kg to lbs (kg_to_lbs)',
       'Celsius to Fahrenheit (c_to_f)',
-      'metres to feet (metres to feet)',
+      'metres to feet (metres_to_feet)',
       'km to miles (km_to_miles)'
     ]
   end

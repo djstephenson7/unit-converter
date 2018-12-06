@@ -4,7 +4,7 @@ describe Converter do
   describe '#greeter' do
     it 'Gives the user a list of options' do
       expect(subject.greeter).to include('cm to inches (cm_to_inches)')
-      expect(subject.greeter).to include('metres to feet (metres to feet)')
+      expect(subject.greeter).to include('metres to feet (metres_to_feet)')
     end
   end
 
