@@ -10,8 +10,8 @@ class Converter
     @menu.print
   end
 
-  def cm_to_inches
-    sum = 100 / 2.54
-    sum.round(2)
+  def cm_to_inches(amount)
+    sum = amount / 2.54
+    "#{amount}cm is #{sum.round(2)} inches."
   end
 end

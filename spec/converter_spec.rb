@@ -10,7 +10,7 @@ describe Converter do
 
   describe 'Cm to inches' do
     it 'Converts cm to inches' do
-      expect(subject.cm_to_inches).to eq(39.37)
+      expect(subject.cm_to_inches(100)).to eq("100cm is 39.37 inches.")
     end
   end
 end
