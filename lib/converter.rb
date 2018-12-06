@@ -14,4 +14,9 @@ class Converter
     sum = amount / 2.54
     "#{amount}cm is #{sum.round(2)} inches."
   end
+
+  def kg_to_lbs(amount)
+    sum = amount * 2.205
+    "#{amount}kg is #{sum.round(2)} lbs."
+  end
 end

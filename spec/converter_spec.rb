@@ -8,9 +8,13 @@ describe Converter do
     end
   end
 
-  describe 'Cm to inches' do
+  describe 'Converter methods' do
     it 'Converts cm to inches' do
       expect(subject.cm_to_inches(100)).to eq("100cm is 39.37 inches.")
+    end
+
+    it "Converts kg to lbs" do
+      expect(subject.kg_to_lbs(100)).to eq("100kg is 220.5 lbs.")
     end
   end
 end
