@@ -20,8 +20,8 @@ class Menu
   end
 
   def print
-    puts 'Welcome. Select your conversion:'
-    puts '________________________________'
+    puts 'Welcome. Select your conversion by its number:'
+    puts '______________________________________________'
     @menu.each_with_index { |v, i| puts "#{i + 1}. #{v}" }
   end
 end
