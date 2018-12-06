@@ -2,26 +2,17 @@
 class Menu
   def initialize
     @menu = [
-      'cm to inches',
-      'kg to lbs',
-      'Celsius to Fahrenheit',
-      'mm to inches',
-      'meters to feet',
-      'km to miles',
-      'cm to feet',
-      'grams to ounces',
-      'inches to feet',
-      'liters to gallons',
-      'pounds to ounces',
-      'mph to kph',
-      'acres to square feet',
-      'meters to yards'
+      'cm to inches (cm_to_inches)',
+      'kg to lbs (kg_to_lbs)',
+      'Celsius to Fahrenheit (c_to_f)',
+      'metres to feet (metres to feet)',
+      'km to miles (km_to_miles)'
     ]
   end
 
   def print
-    puts 'Welcome. Select your conversion by its number:'
-    puts '______________________________________________'
+    puts 'Welcome. Select your conversion by the command in brackets:'
+    puts "___________________________________________________________\n\n"
     @menu.each_with_index { |v, i| puts "#{i + 1}. #{v}" }
   end
 end
