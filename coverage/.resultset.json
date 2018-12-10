@@ -33,6 +33,10 @@
         1,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/danielstephenson/Documents/Projects/unit-converter/lib/converter.rb": [
@@ -41,7 +45,7 @@
         null,
         1,
         1,
-        6,
+        7,
         null,
         null,
         1,
@@ -69,6 +73,13 @@
         null,
         null,
         1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
         1,
         1,
         null,
@@ -78,7 +89,7 @@
         null,
         1,
         1,
-        7,
+        8,
         null,
         null,
         null,
@@ -108,6 +119,6 @@
         null
       ]
     },
-    "timestamp": 1544117549
+    "timestamp": 1544438082
   }
 }

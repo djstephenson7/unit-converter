@@ -28,5 +28,9 @@ describe Converter do
     it 'Converts km to miles' do
       expect(subject.km_to_miles(100)).to eq('100 kilometres is 62.15 miles.')
     end
+
+    it "Convert miros' to chocolates" do
+      expect(subject.miros_to_chocolate(100)).to eq('100 is 2 miros')
+    end
   end
 end

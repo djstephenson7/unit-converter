@@ -34,4 +34,9 @@ class Converter
     sum = amount / 1.609
     "#{amount} kilometres is #{sum.round(2)} miles."
   end
+
+  def miros_to_chocolate(amount)
+    equivalent = amount / 50
+    "#{amount} is #{equivalent} miros"
+  end
 end
